@@ -1,4 +1,3 @@
-
 def dfs(visited,graph,node):
     if node not in visited:
         print(node,end = " ")
@@ -41,25 +40,15 @@ def main():
 if __name__=="__main__":
     main()
 
-'''
-Output:
-Enter number of nodes :  7
-Enter number of edges for node 1 :  2
-Enter edge 1 for node 1 :  2
-Enter edge 2 for node 1 :  3
-Enter number of edges for node 2 :  2
-Enter edge 1 for node 2 :  4
-Enter edge 2 for node 2 :  5
-Enter number of edges for node 3 :  2
-Enter edge 1 for node 3 :  6
-Enter edge 2 for node 3 :  7
-Enter number of edges for node 4 :  0
-Enter number of edges for node 5 :  0
-Enter number of edges for node 6 :  0
-Enter number of edges for node 7 :  0
 
-The following is DFS
-1 2 4 5 3 6 7 
-The following is BFS
-1 2 3 4 5 6 7 
-
+    # graph = {
+    #     '1' : ['2','3'],
+    #     '2' : ['4', '5'],
+    #     '3' : ['6','7'],
+    #     '4' : [],
+    #     '5' : [],
+    #     '6' : [],
+    #     '7' : []
+    #     DFS : 1 2 4 5 3 6 7 
+    #     BFS : 1 2 3 4 5 6 7 
+    # }
